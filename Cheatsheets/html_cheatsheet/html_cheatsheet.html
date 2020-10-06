@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>HTML tests</title>
+    </head>
+
+
+    <body>
+
+        <!-- Heading-->
+        <h1>Heading 1</h1>
+
+        <a href="semantic_tags.html">Go to blog</a>
+
+        <h2>Heading 2</h2>
+        <h6>Heading 6</h6>
+
+        <!--Paragraph-->
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sapiente libero odio <strong>dolores</strong> impedit inventore voluptatum alias optio ab consectetur ullam ducimus nihil, totam in distinctio repellat eveniet exercitationem.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quas quidem illum alias, <em>corporis</em> perspiciatis corrupti 
+            <a href="http://google.com" target="_blank">doloremque</a>
+            ! Autem, sint quo! Placeat dolor odio omnis dicta dolores quo distinctio deleniti?
+        </p>
+
+        <!-- Lists-->
+
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+
+        <!-- Table-->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> Brad</td>
+                    <td> Brad@gmail.com</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td> Hans</td>
+                    <td> Hans@gmail.com</td>
+                    <td>34</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>    <!--linebreak-->
+        <hr>    <!--horizontal line-->
+        <!-- Forms-->
+
+        <form action="process.php" method="POST"> <!--method="GET" not secured, compared to POST-->
+            <div>       <!-- use div to get a new line-->
+                <label>First Name</label>
+                <input type="text" name="first_name" placeholder="Enter first name">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="last_name" placeholder="Enter last name">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Enter Email">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Message</label>
+                <textarea name="message"  cols="30" rows="10"></textarea>
+            </div>
+
+            <br>
+
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">other</option>
+                </select>
+            </div>
+
+            <br>
+
+            <div>
+                <label>Age</label>
+                <input type="number" name="age" value="30">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Birthday</label>
+                <input type="date" name="birthday">
+            </div>
+
+            <br>
+
+            <input type="submit" name="submit" value="Submit">
+
+        </form>
+
+        <br>
+
+        <!-- Button, does't do anything without JS-->
+
+        <button>Click Me</button>
+        <br>
+
+        <!-- Image (with link)-->
+        <a href="images/sample_image.jpg" target="_blank">
+            <img src="images/sample_image.jpg" alt="MySampleImage" width="400"> <!-- alt is text shown, when image is not available-->
+        </a>
+
+        <!-- Quotaions-->
+        <blockquote cite="http://google.com">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rerum similique eligendi quasi veniam quisquam, consectetur reprehenderit optio, modi repudiandae ullam nulla molestias illo tenetur aperiam harum totam recusandae voluptas.
+        </blockquote>
+
+
+        <!-- Abbreviaion-->
+        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+        <!-- Cite-->
+
+        <p>Lorem ipsum <cite>tgus</cite> sit amet consectetur adipisicing elit. Error veritatis officia aspernatur libero doloribus corrupti modi ut, vero aperiam corporis eos eaque aut, sed atque asperiores illo fugit quasi. Enim?</p>
+
+    </body>
+
+</html> 
